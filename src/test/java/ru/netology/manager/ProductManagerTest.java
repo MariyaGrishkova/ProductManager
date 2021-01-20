@@ -2,6 +2,7 @@ package ru.netology.manager;
 
 import org.junit.jupiter.api.Test;
 import ru.netology.domain.Book;
+import ru.netology.domain.Product;
 import ru.netology.manager.ProductManager;
 import ru.netology.repository.Repository;
 
