@@ -13,4 +13,6 @@ public class Product {
     private String name;
     private int price;
 
-   }
+    public boolean search(String text) {
+    };
+}
