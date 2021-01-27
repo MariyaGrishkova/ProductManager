@@ -13,7 +13,7 @@ class ProductManagerTest {
     void shouldSearchByAuthor() {
         Repository repository = new Repository();
         ProductManager manager = new ProductManager(repository);
-        Product[] expected = {new Book(2, "TFantastic Beasts and Where to Find Them", 300, "Joanne Rowling")};
+        Product[] expected = {new Book(2, "Fantastic Beasts and Where to Find Them", 300, "Joanne Rowling")};
         Product[] actual = manager.searchBy("Joanne Rowling");
         assertArrayEquals(expected, actual);
     }
