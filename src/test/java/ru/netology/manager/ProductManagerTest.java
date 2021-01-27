@@ -17,6 +17,7 @@ class ProductManagerTest {
         Product[] actual = manager.searchBy("Joanne Rowling");
         assertArrayEquals(expected, actual);
     }
+
     @Test
     void shouldSearchByName() {
         Repository repository = new Repository();
@@ -24,3 +25,5 @@ class ProductManagerTest {
         Product[] expected = {new Book(3, "The big Sky", 100, "Kate Atkinson")};
         Product[] actual = manager.searchBy("The big Sky");
         assertArrayEquals(expected, actual);
+    }
+}
