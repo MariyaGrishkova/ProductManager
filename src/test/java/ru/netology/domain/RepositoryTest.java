@@ -15,7 +15,6 @@ class RepositoryTest {
         Product[] expected = {new Book(1, "Troubled Blood", 200, "Robert Galbraith"),
                 new Book(2, "TFantastic Beasts and Where to Find Them", 300, "Joanne Rowling"),
                 new Book(3, "The big Sky", 100, "Kate Atkinson"),
-                new Smartphone(4, "Galaxy-A-50", 400, "Samsung"),
                 new Smartphone(5, "Mi-3", 300, "Xiaomi"),
                 new Smartphone(6, "P-30", 200, "Honor")};
         assertArrayEquals(expected, repo.getAll());
