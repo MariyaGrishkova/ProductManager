@@ -14,7 +14,7 @@ class RepositoryTest {
 
     @Test
     void shouldRemoveByIdIfExists() {
-        repo.removeById(5);
+        repo.removeById(4);
         Product[] expected = {new Book(1, "Troubled Blood", 200, "Robert Galbraith"),
                 new Book(2, "Fantastic Beasts and Where to Find Them", 300, "Joanne Rowling"),
                 new Book(3, "Kate Atkinson", 100, "Kate Atkinson"),
